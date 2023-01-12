@@ -3,7 +3,7 @@
 Feature: Adactin Login Automation
 @TC101 @smoke
   Scenario: To verify valid logindetails
-  Given User Launch the "edge" Browser
+  Given User Launch the "Chrome" Browser
   And User Naviagte Url "http://adactinhotelapp.com/"
   Then User verify login page
   And User Enter UserName "vijibharathi"
@@ -13,7 +13,7 @@ Feature: Adactin Login Automation
   
   @TC102 @smoke
   Scenario: To verify invalid login details
-   Given User Launch the "edge" Browser
+   Given User Launch the "Chrome" Browser
   And User Naviagte Url "http://adactinhotelapp.com/"
   Then User verify login page
   And User Enter UserName "tester"
@@ -31,7 +31,7 @@ Feature: Adactin Login Automation
   
     @TC103 
   Scenario Outline: To verify invalid login details
-  Given User Launch the "edge" Browser
+  Given User Launch the "Chrome" Browser
   And User Naviagte Url "http://adactinhotelapp.com/"
   Then User verify login page
   And User Enter UserName <UserName>
