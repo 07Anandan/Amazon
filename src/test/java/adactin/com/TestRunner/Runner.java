@@ -7,7 +7,7 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features = "src\\test\\java\\Features",glue = "adactin.com.Stepdefination",
-tags = "@TC103")
+tags = "@TC103",plugin = "json:target\\report\\adactin.json")
 public class Runner {
 
 }
